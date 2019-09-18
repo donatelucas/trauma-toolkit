@@ -1,0 +1,42 @@
+/*
+    #85C7DE - Sky Blue
+    #A0C4E2 - Pale Cerulean
+    #AED1E6 - Light Blue
+    #C6DBF0 - Columbia Blue
+    #CFE8EF - Azureish White
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+
+.container > p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    text-align: left;
+}
+
+.container {
+    border-radius: 2px;
+    margin: 5px;
+    border: 5px;
+    padding: 5px 10px;
+}
+
+.main, .sidebar {
+    background: #C6DBF0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body {
+    background: #A0C4E2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
