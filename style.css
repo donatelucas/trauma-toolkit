@@ -8,10 +8,14 @@
     font-family: 'Roboto', sans-serif;
 */
 
-.container > p {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body {
+    background: #A0C4E2;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 p {
@@ -29,14 +33,4 @@ p {
     background: #C6DBF0;
     padding: 10px;
     border-radius: 3px;
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-body {
-    background: #A0C4E2;
-    font-family: 'Source Sans Pro', sans-serif;
 }
