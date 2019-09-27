@@ -4,33 +4,46 @@
     #AED1E6 - Light Blue
     #C6DBF0 - Columbia Blue
     #CFE8EF - Azureish White
+    #8EE5F0 - Baby Blue
+    #F0998E - Light Salmon Pink
     font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Roboto', sans-serif;
 */
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
 body {
-    background: #A0C4E2;
-    font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-p {
-    text-align: left;
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #85C7DE;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
-.container {
-    border-radius: 2px;
-    margin: 5px;
-    border: 5px;
-    padding: 5px 10px;
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #C6DBF0;
+    display: block;
 }
 
-.main, .sidebar {
-    background: #C6DBF0;
-    padding: 10px;
-    border-radius: 3px;
+.sidenav a:hover {
+    color: #CFE8EF;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
