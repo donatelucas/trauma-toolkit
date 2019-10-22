@@ -15,7 +15,8 @@ let fetchOneByKey = function() {
 	var params = {
 		TableName: "Trauma_Toolkit",
 		Key: {
-			"ID" : "3"
+			"ID" : "3",
+			"Subject Name" : "Sexual Assault Tools"
 		}
 	};
 	
