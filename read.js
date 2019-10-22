@@ -13,10 +13,9 @@ let docClient = new AWS.DynamoDB.DocumentClient();
 let fetchOneByKey = function() {
 	
 	var params = {
-		TableName: "Trauma_Toolkit",
+		TableName: "TraumaToolkit",
 		Key: {
-			"ID" : "3",
-			"Subject Name" : "Sexual Assault Tools"
+			"ID" : "3"
 		}
 	};
 	
