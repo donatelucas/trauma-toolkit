@@ -44,3 +44,12 @@ li a:hover:not(.active) {
 .active {
   background-color: #E85A4F;
 }
+
+.top {
+	background: #D8C3A5;
+	position: fixed;
+  left: 0; right: 0;
+  height: 136px;
+  top: 0;
+  z-index : -1
+}
