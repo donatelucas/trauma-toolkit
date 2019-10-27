@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/donatelucas/trauma-toolkit#readme",
   "dependencies": {
-    "aws-sdk": "^2.553.0"
-  }
+    "aws-sdk": "^2.553.0",
+    "dynamodb": "^1.2.1"
+  },
+  "devDependencies": {}
 }
