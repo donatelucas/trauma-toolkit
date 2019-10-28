@@ -15,7 +15,7 @@ let fetchOneByKey = function() {
 	var params = {
 		TableName: "TraumaToolkit",
 		Key: {
-			"ID" : "3"
+			"ID" : 3
 		}
 	};
 	
