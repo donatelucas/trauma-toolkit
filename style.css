@@ -1,49 +1,98 @@
 /*
-    #85C7DE - Sky Blue
-    #A0C4E2 - Pale Cerulean
-    #AED1E6 - Light Blue
-    #C6DBF0 - Columbia Blue
-    #CFE8EF - Azureish White
-    #8EE5F0 - Baby Blue
-    #F0998E - Light Salmon Pink
-    font-family: 'Source Sans Pro', sans-serif;
+    #EAE7DC - Platinum
+    #D8C3A5 - Dark Vanilla
+    #838D8A - Taupe Gray
+    #E98074 - Light Coral
+    #E85A4F - Jelly Bean
+
     font-family: 'Roboto', sans-serif;
+
+    nav bar code referenced from - https://www.w3schools.com/css/css_navbar.asp
 */
+
 body {
-  font-family: "Lato", sans-serif;
+  background-color: #EAE7DC;
+  font-family: 'Roboto', sans-serif;
 }
 
-.sidenav {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #85C7DE;
-    overflow-x: hidden;
-    padding-top: 20px;
+ul {
+  list-style-type: none; /* no bullet points */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8E8D8A;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
 }
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #C6DBF0;
-    display: block;
+li {
+  float: left;
 }
 
-.sidenav a:hover {
-    color: #CFE8EF;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
+li a:hover:not(.active), .dropdown:hover .ddbutton {
+  background-color: #EAE7DC;
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+.active {
+  background-color: #E85A4F;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .ddbutton {
+  background-color: inherit;
+  font-family: inherit;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  margin: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #EAE7DC;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  column-count: 2;
+}
+
+.dropdown-menu a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-menu a:hover {
+  background-color: #E98074;
+}
+
+.top {
+	background: #D8C3A5;
+	position: fixed;
+  left: 0; right: 0;
+  height: 136px;
+  top: 0;
+  z-index : -1
 }
