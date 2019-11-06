@@ -1,9 +1,10 @@
 /*
-    #EAE7DC - Platinum
-    #D8C3A5 - Dark Vanilla
-    #838D8A - Taupe Gray
-    #E98074 - Light Coral
-    #E85A4F - Jelly Bean
+    #E6E2DD - platinum
+    #C0CFD3 - lavender grey
+    #97AEB2 - cadet grey
+    #70828B - slate grey
+    #39373C - onyx
+    #A3B09C - laurel green
 
     font-family: 'Roboto', sans-serif;
 
@@ -11,8 +12,9 @@
 */
 
 body {
-  background-color: #EAE7DC;
+  background-color: #E6E2DD;
   font-family: 'Roboto', sans-serif;
+  color: #39373C;
 }
 
 ul {
@@ -20,7 +22,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #8E8D8A;
+  background-color: #39373C;
   font-family: 'Roboto', sans-serif;
   border-radius: 5px;
 }
@@ -38,11 +40,11 @@ li a {
 }
 
 li a:hover:not(.active), .dropdown:hover .ddbutton {
-  background-color: #EAE7DC;
+  background-color: #97AEB2;
 }
 
 .active {
-  background-color: #E85A4F;
+  background-color: #A3B09C;
 }
 
 .dropdown {
@@ -68,7 +70,7 @@ li a:hover:not(.active), .dropdown:hover .ddbutton {
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #EAE7DC;
+  background-color: #C0CFD3;
   min-width: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -85,11 +87,11 @@ li a:hover:not(.active), .dropdown:hover .ddbutton {
 }
 
 .dropdown-menu a:hover {
-  background-color: #E98074;
+  background-color: #70828B;
 }
 
 .top {
-	background: #D8C3A5;
+	background: #C0CFD3;
 	position: fixed;
   left: 0; right: 0;
   height: 136px;
