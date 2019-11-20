@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient
-const url = "mongodb+srv://sjohnston1:skj1skj2@trauma-toolkit-tef6r.mongodb.net/test?retryWrites=true&w=majority?authSource=admin"
+const url = "mongodb+srv://sjohnston1:Password@trauma-toolkit-tef6r.mongodb.net/test?retryWrites=true&w=majority?authSource=admin"
 
 const dbName = 'Trauma-Toolkit'
 let db
