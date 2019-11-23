@@ -12,7 +12,7 @@ MongoClient.connect(url, { useNewUrlParser: true}, (err, client) => {
 	console.log(`Connected MongoDB: ${url}`)
 	console.log(`Database: ${dbName}`)
 
-	var query = { Subject: "Rape Tools" };
+	var query = { Topic: "Rape Tools" };
   	db.collection("Subjects").find(query).toArray(function(err, result) {
     	if (err) throw err;
     	console.log(result);
