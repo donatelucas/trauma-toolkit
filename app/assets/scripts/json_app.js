@@ -37,7 +37,9 @@ function loadApp() {
       var $rapetools = response;
       $rapetools.forEach(function(item) {
         if (item !== null) {
-          var rapetools = item.Helpful_Links;
+          var rapetools = item.Reporting_Options;
+          console.log(typeof rapetools);
+          rapetools = rapetools.replace(/,/g, "<br>")
           var p = $("<p>");
           p.html(rapetools);
           $(".rapetools-output").append(p);
