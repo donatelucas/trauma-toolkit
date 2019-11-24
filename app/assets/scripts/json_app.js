@@ -30,5 +30,29 @@ function loadApp() {
 
   getSubjects();
 
+///////////////////////////////////////////////////////
+
+  function buildRapeTools(response) {
+      $(".rapetools-output").empty();
+      var $rapetools = response;
+      $rapetools.forEach(function(item) {
+        if (item !== null) {
+          var rapetools = item.Helpful_Links;
+          var p = $("<p>");
+          p.html(rapetools);
+          $(".rapetools-output").append(p);
+        }
+      });
+    }
+
+    function getRapeTools() {
+    $.getJSON("RapeTools.json", function (response) {
+      console.log(response);
+      buildRapeTools(response);
+    });
+    }
+
+  getRapeTools();
+
 };
 $(document).ready(loadApp);

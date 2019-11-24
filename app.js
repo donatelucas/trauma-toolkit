@@ -5,7 +5,7 @@ var express = require("express"),
     mongoose = require("mongoose"),
     jsonApp = express();
 
-const url = "mongodb+srv://sjohnston1:Password@trauma-toolkit-tef6r.mongodb.net/test?retryWrites=true&w=majority?authSource=admin";
+const url = "mongodb+srv://sjohnston1:password@trauma-toolkit-tef6r.mongodb.net/test?retryWrites=true&w=majority?authSource=admin";
 
 jsonApp.use(express.static(__dirname + "/app"));
 
@@ -38,3 +38,14 @@ jsonApp.get("/Subjects.json", function(req, res) {
 	});
 });
 
+jsonApp.get("/RapeTools.json", function(req, res) {
+	model.find({ "Topic":"Rape Tools" }, function (error, RapeTools) {
+		res.json(RapeTools);
+	});
+});
+
+jsonApp.get("/SexualAbuseTools.json", function(req, res) {
+	model.find({ "Topic":"Sexual Abuse Tools" }, function (error, SexualAbuseTools) {
+		res.json(SexualAbuseTools);
+	});
+});
