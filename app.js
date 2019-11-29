@@ -33,7 +33,9 @@ var model = mongoose.model("Subject", schema, collectionName);
 http.createServer(jsonApp).listen(3030);
 
 jsonApp.get("/Subjects.json", function(req, res) {
+	console.log("Debug 1");
 	model.find({}, function (error, Subjects) {
+		console.log("Debug 2");
 		res.json(Subjects);
 	});
 });

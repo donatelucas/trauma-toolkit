@@ -2,7 +2,10 @@
 function loadApp() {
   "use strict";
 
+  console.log("Debug 1");
+
   function buildSubjects(response) {
+      console.log("Debug 2");
       //clear Subjects output
       $(".topic-output").empty();
       //get Subjects
@@ -22,13 +25,17 @@ function loadApp() {
     }
 
     function getSubjects() {
+      console.log("Debug 3");
     $.getJSON("Subjects.json", function (response) {
+      console.log("Debug 4");
       console.log(response);
       buildSubjects(response);
     });
     }
 
+  console.log("Debug 5");
   getSubjects();
+  console.log("Debug 6");
 
 ///////////////////////////////////////////////////////
 
