@@ -57,9 +57,9 @@ li a:hover:not(.active), .dropdown:hover .ddbutton {
   background-color: inherit;
   font-family: inherit;
   font-size: 16px;
+  color: white;
   border: none;
   outline: none;
-  color: white;
   padding: 14px 16px;
   margin: 0;
 }
