@@ -26,23 +26,27 @@
 
 h2, p {
   text-align: left;
-  width: 560px;
+  width: 100%;
 }
 
 .text-box {
   position: relative;
   width: 60%;
   height: 0;
-  padding-bottom: 35%;
+  padding-bottom: 45%;
   margin-left: 20%;
-  margin-top: 5%;
+  margin-top: 0%;
   background-color: #A3B09C;
-  border-radius: 5%;
-  border: 5px solid #39373C;
+  border-radius: 3%;
+  border: 3px solid #39373C;
 }
 
 .text-content {
   width: 90%;
   padding: 5%;
   padding-top: 1.5%;
+}
+
+.text-content-format {
+  font-weight: bold;
 }
