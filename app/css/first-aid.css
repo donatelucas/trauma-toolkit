@@ -30,6 +30,11 @@
 h3 {
   text-align: center;
   color: #E6E2DD;
+  font-size: 1.3vw;
+}
+
+p {
+  font-size: 1.05vw;
 }
 
 .resources {
@@ -48,14 +53,14 @@ h3 {
   margin: 10px;
   text-align: center;
   color: white;
-  font-size: 15px;
+  font-size: 1vw;
   border-radius: 3%;
   border: 2px solid #39373C;
 }
 
 .resources h2 {
   color: white;
-  font-size: 20px;
+  font-size: 1.5vw;
   line-height: 0.8;
 }
 
