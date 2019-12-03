@@ -9,10 +9,28 @@
     font-family: 'Roboto', sans-serif;
 */
 
-.video {
-  text-align: center;
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-columns: max-content;
+  /* width: 100%; */
+  margin: 0;
+  /* overflow: hidden; */
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.video-element {
+  float: left;
+  margin: 55px;
+  margin-top: 5px;
 }
 
 iframe {
-  margin: 55px;
+
+}
+
+h2, p {
+  text-align: left;
+  width: 560px;
 }
