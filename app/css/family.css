@@ -1,0 +1,48 @@
+/*
+    #E6E2DD - platinum
+    #C0CFD3 - lavender grey
+    #97AEB2 - cadet grey
+    #70828B - slate grey
+    #39373C - onyx
+    #A3B09C - laurel green
+
+    font-family: 'Roboto', sans-serif;
+*/
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-columns: max-content;
+  margin: 0;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.video-element {
+  float: left;
+  margin: 55px;
+  margin-top: 5px;
+}
+
+h2, p {
+  text-align: left;
+  width: 560px;
+}
+
+.text-box {
+  position: relative;
+  width: 60%;
+  height: 0;
+  padding-bottom: 35%;
+  margin-left: 20%;
+  margin-top: 5%;
+  background-color: #A3B09C;
+  border-radius: 5%;
+  border: 5px solid #39373C;
+}
+
+.text-content {
+  width: 90%;
+  padding: 5%;
+  padding-top: 1.5%;
+}
