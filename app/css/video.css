@@ -1,0 +1,18 @@
+/*
+    #E6E2DD - platinum
+    #C0CFD3 - lavender grey
+    #97AEB2 - cadet grey
+    #70828B - slate grey
+    #39373C - onyx
+    #A3B09C - laurel green
+
+    font-family: 'Roboto', sans-serif;
+*/
+
+.video {
+  text-align: center;
+}
+
+iframe {
+  margin: 55px;
+}
