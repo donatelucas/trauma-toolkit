@@ -41,11 +41,15 @@ li a {
 }
 
 li a:hover:not(.active), .dropdown:hover .ddbutton {
-  background-color: #70828B; /* #97AEB2 or #70828B*/
+  background-color: #97AEB2; /* #97AEB2 or #70828B*/
 }
 
 .active {
   background-color: #A3B09C;
+}
+
+.active-drop {
+  background-color: #70828B;
 }
 
 .dropdown {
