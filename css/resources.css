@@ -7,11 +7,6 @@
     #A3B09C - laurel green
 */
 
-/*
-  More space needs to be added between navbar and resource content.
-  Resource boxes will be made into components.
-*/
-
 .resources {
   display: flex;
   flex-direction: row;
