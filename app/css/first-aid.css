@@ -16,7 +16,7 @@
   padding-bottom: 20%;
   margin-left: 5%;
   margin-top: 0%;
-  background-color: #A3B09C;
+  background-color: #97AEB2;
   border-radius: 1%;
   border: 3px solid #39373C;
 }
@@ -30,4 +30,36 @@
 h3 {
   text-align: center;
   color: #E6E2DD;
+}
+
+.resources {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.resources div {
+  width: 25%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #C0CFD3;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  border-radius: 3%;
+  border: 2px solid #39373C;
+}
+
+.resources h2 {
+  color: white;
+  font-size: 20px;
+  line-height: 0.8;
+}
+
+.resources section {
+  width: 95%;
+  padding-left: 2.5%;
 }
