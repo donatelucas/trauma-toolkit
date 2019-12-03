@@ -22,16 +22,22 @@
   background-color: #A3B09C;
   border-radius: 5%;
   border: 5px solid #39373C;
-} 
+}
 
 .about-content {
   width: 90%;
   padding: 5%;
-  padding-top: 3%;
+  padding-top: 1.5%;
 }
 
 p {
   text-align: justify;
   font-size: 17px;
   font-weight: bold;
+}
+
+.disclaimer {
+  color: #E6E2DD;
+  text-align: center;
+  font-size: 20px;
 }
