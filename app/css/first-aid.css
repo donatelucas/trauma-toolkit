@@ -59,12 +59,13 @@ p {
 }
 
 .resources h2 {
-  color: white;
+  color: #39373C;
   font-size: 1.5vw;
   line-height: 0.8;
 }
 
 .resources section {
+  color: #39373C;
   width: 95%;
   padding-left: 2.5%;
 }
